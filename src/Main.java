@@ -46,6 +46,14 @@ public class Main {
                         System.out.println(x + " is not a prime number.");
 
                     break;
+                case 4:
+                    System.out.print("Enter a number: ");
+                     x = sc.nextInt();
+
+                    if(x % 2 == 0)
+                        System.out.println(x + " is even");
+                    else
+                        System.out.println(x+ " is odd");
 
             }
         } while(c!=6);
