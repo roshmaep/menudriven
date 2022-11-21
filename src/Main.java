@@ -19,7 +19,7 @@ public class Main {
                     largest = z > temp ? z : temp;
                     System.out.println("largest=" + largest);
                     break;
-                case 1:
+                case 2:
                     System.out.println("Enter 3 numbers");
                     x = sc.nextInt();
                     y = sc.nextInt();
