@@ -54,6 +54,19 @@ public class Main {
                         System.out.println(x + " is even");
                     else
                         System.out.println(x+ " is odd");
+                case 5:
+                    System.out.print("Enter a number: ");
+                    x = sc.nextInt();
+                    int rev=0;
+                    while(x!=0)
+                    {
+                        int rem=x%10;
+                        rev=rev*10+rem;
+                        x/=10;
+                    }
+                    System.out.print("Reverse of number: "+rev);
+
+
 
             }
         } while(c!=6);
