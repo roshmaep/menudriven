@@ -65,7 +65,7 @@ public class Main {
                         x/=10;
                     }
                     System.out.print("Reverse of number: "+rev);
-                case 6:System.out.println("Exiting....");
+                case 6:System.out.println("\n Exiting....");
                     break;
                 default:System.out.println("invalid choice...Please enter your choice... ");
                     break;
